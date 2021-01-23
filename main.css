@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 1000px;
 }
 
 .container {
@@ -20,6 +21,8 @@ body {
 }
 
 .card {
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
     min-height: 85vh;
     width: 35rem;
     border-radius: 30px;
